@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>課題</title>
+    <title>githubユーザー検索</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
-    <h1>課題提出場所</h1>
+    <h1>検索ページ</h1>
     <!--ちゃんと変遷するか確認-->
         <nav>
             <ul class="nav-list">
@@ -20,13 +20,12 @@
         </nav>
 </header>
 <body>
-    <nav>
-        <ul class="nav-list">
-            <li><a href="javascriptwork/1_3work/1_3work.html">1_3課題</a></li>
-            <li><a href="javascriptwork/1_4work/1_4work.html">1_4課題</a></li>
-            <li><a href="javascriptwork/1_6work/1_6.html">1_6課題</a></li>
-        </ul>
-    </nav>
-    
+   <section class="contact-form">
+    <h1>ユーザー検索</h1>
+    <input type="text" id="username" placeholder="githubユーザー名を入力">
+    <button id="searchbtn">検索</button>
+    <div id="result"></div>
+   </section>
+
 </body>
 </html>
